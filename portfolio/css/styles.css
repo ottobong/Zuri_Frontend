@@ -25,13 +25,13 @@
 
     --bg-gradient-onyx: linear-gradient(
         to bottom right, 
-        #00639B 3%, 
+        #003757 3%, 
         #00213E 97%
     );
     --bg-gradient-jet: linear-gradient(
         to bottom right, 
-        #2d2d2e40 0%, 
-        #1b1b1d00 100%
+        #00639B 0%, 
+        #00213E 100%
     ), #202022;
     --bg-gradient-yellow-1: linear-gradient(
         to bottom right, 
@@ -45,8 +45,8 @@
     ), #202022;
     --border-gradient-onyx: linear-gradient(
         to bottom right, 
-        #404040 0%, 
-        #40404000 50%
+        #003757 0%, 
+        #00213E 50%
     );
     --text-gradient-yellow: linear-gradient(
         to right, 
@@ -215,7 +215,7 @@ main {
 
 .info-content .name {
     color: var(--white-2);
-    font-size: var(--fs-3);
+    font-size: var(--fs-5);
     font-weight: var(--fw-500);
     letter-spacing: -0.25px;
     margin-bottom: 10px;
@@ -235,5 +235,22 @@ main {
     position: absolute;
     top: -15px;
     right: -15px;
-    
+    border-radius: 0 15px;
+    font-size: 13px;
+    color: var(--burnt-orange);
+    background: var(--border-gradient-onyx);
+    padding: 10px;
+    box-shadow: var(--shadow-2);
+    transition: var(--transition-1);
+    z-index: 2;
+}
+
+.info_more-btn::before {
+    content: "";
+    position: absolute;
+    inset: 1px;
+    border-radius: inherit;
+    background: var(--bg-gradient-onyx);
+    transition: var(--transition-1);
+    z-index: 1;
 }
