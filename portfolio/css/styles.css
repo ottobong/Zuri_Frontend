@@ -48,7 +48,7 @@
         #003757 0%, 
         #00213E 50%
     );
-    --text-gradient-yellow: linear-gradient(
+    --text-gradient-orange: linear-gradient(
         to right, 
         #FE621D, 
         #d13f00
@@ -151,7 +151,7 @@ body {
 
 /*Reuse Style*/
 
-.sidebar {
+.sidebar, article{
     background: var(--eerie-blue-2);
     border: 1px solid var(--jet);
     border-radius: 20px;
@@ -196,6 +196,60 @@ body {
     --ionicon-stroke-width: 35px;
 }
 
+article{
+    display: none;
+}
+
+article.active {
+    display: block;
+    animation: fade 0.5s ease backwards;
+}
+
+@keyframes fade {
+    0% {opacity: 0;}
+    100% { opacity: 1;}
+}
+
+.h2, .h3, .h4, .h5 {
+    color: var(--white-2);
+    text-transform: capitalize;
+}
+
+.h2 {
+    font-size: var(--fs-1);
+}
+
+.h3 {
+    font-size: var(--fs-2);
+}
+
+.h4 {
+    font-size: var(--fs-4);
+}
+
+.h5 {
+    font-size: var(--fs-7);
+    font-weight: var(--fw-500);
+}
+
+.article-title {
+    position: relative;
+    padding-bottom: 7px;
+}
+
+.article-title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30px;
+    height: 3px;
+    background: var(--text-gradient-orange);
+    border-radius: 3px;
+}
+
+/* Reuse styling ends here */
+
 
 
 /* Main Styling starts here */
@@ -206,7 +260,7 @@ main {
     min-width: 259px;
 }
 
-
+/* Main styling ends here */
 
 /* Sidebar Styling starts here */
 
@@ -397,4 +451,28 @@ main {
 .navbar-link.active {
     color: var(--burnt-orange);
 }
+/* Navbar styling ends here */
+
+
+
+/* About me styling starts here */
+.about .article-title {
+    margin-bottom: 15px;
+}
+
+.about-text {
+    color: var(--light-gray);
+    font-size: var(--fs-6);
+    font-weight: var(--fw-300);
+    line-height: 1.6;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+}
+/* About me ends here */
+
+
+
+/* My Services starts here */
 
