@@ -25,7 +25,7 @@ const overlay = document.querySelector("[data-overlay]");
 //modal variable
 const modalImg = document.querySelector("[data-modal-img]");
 const modalTitle = document.querySelector("[data-modal-title]");
-const modalText = document.querySelector("[data-modal-text]")
+const modalText = document.querySelector("[data-modal-text]");
 
 //modal toggle function
 const testimonialsModalFunc = function() {
@@ -42,5 +42,13 @@ for (let i = 0; i < testimonialsItem.length; i++) {
         modalTitle.innerHTML = this.querySelector("[data-testimonials-title]").innerHTML;
         modalText.innerHTML = this.querySelector("[data-testimonial-text]").innerHTML;
 
+
+        testimonialsModalFunc();
+
     });
+
 }
+
+// Add click event to modal close button
+// overlay.addEventListener("click", testimonialsModalFunc);
+modalCloseBtn.addEventListener("click", testimonialsModalFunc);
