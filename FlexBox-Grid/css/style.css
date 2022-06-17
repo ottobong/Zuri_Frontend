@@ -6,8 +6,7 @@
 main {
     display: flex;
     margin: auto;
-    padding: 50px 200px;
-    align-content: center;
+    padding: 100px 200px;
     justify-content: center;
 }
 
@@ -44,7 +43,7 @@ main {
     border-radius: 0px 6px 6px 0px;
 }
 
-h1 {
+.mn-1 h1 {
     font-family: 'Big Shoulders Display', cursive;
     color: hsl(0, 0%, 95%);
     font-weight: 700px;
@@ -52,7 +51,7 @@ h1 {
     margin-bottom: 30px;
 }
 
-p {
+.mn-1 p {
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
     font-weight: 400px;
@@ -60,14 +59,14 @@ p {
     margin-bottom: 60px;
 }
 
-button {
+.mn-1 button {
     padding: 15px 25px;
     border: none;
     border-radius: 50px;
 }
 
 
-button:hover {
+.mn-1 button:hover {
     padding: 15px 25px;
     border: 1px solid white;
     border-radius: 50px;
