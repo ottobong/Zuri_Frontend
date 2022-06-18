@@ -21,6 +21,7 @@ main {
 
 .sedan:hover {
     background-color: hsl(31, 70%, 44%);
+    cursor: pointer;
 }
 
 
@@ -30,6 +31,7 @@ main {
 
 .suv:hover {
     background-color: hsl(183, 100%, 17%);
+    cursor: pointer;
 }
 
 
@@ -40,7 +42,7 @@ main {
 
 .luxury:hover {
     background-color: hsl(180, 100%, 12%);
-    border-radius: 0px 6px 6px 0px;
+    cursor: pointer;
 }
 
 .mn-1 h1 {
