@@ -1,0 +1,1 @@
+All the assets used in the project is stored here

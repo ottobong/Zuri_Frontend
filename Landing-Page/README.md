@@ -1,0 +1,1 @@
+This is a landing page design for Zuri Responsiveness and media queries task
