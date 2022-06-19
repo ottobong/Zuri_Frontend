@@ -1,45 +1,48 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background-color: #00113d;
-}
-
-main {
+.grid-container {
+    width: 100%;
     display: grid;
     grid-template-areas: 
-    ''
+    'a a b'
+    'c d d'
+    'c e e'
     ;
+    gap: 10px;
 }
 
-main div {
-    padding: 2em;
-    text-align: center;
+
+body {
+    background-color: navy;
 }
 
-.item-a {
-    background-color: orange;
+.item1 {
     grid-area: a;
-}
-
-.item-b {
-    background-color: orangered;
-    grid-area: b;
-}
-
-.item-c {
     background-color: blue;
+    padding: 15%;
+}
+
+.item2 {
+    grid-area: b;
+    background-color: red;
+    padding: 15%;
+}
+
+.item3 {
     grid-area: c;
+    background-color: yellow;
+    padding: 15%;
 }
 
-.item-d {
-    background-color: cornflowerblue;
+.item4 {
     grid-area: d;
+    background-color: cyan;
+    padding: 7.5%;
 }
 
-.item-e {
-    background-color: cyan;
+.item5 {
     grid-area: e;
+    background-color: cyan;
+    padding: 7.5%;
 }
+
+
+
