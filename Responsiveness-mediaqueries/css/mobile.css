@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-image: url(/Responsiveness-mediaqueries/asset/bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%);
+}

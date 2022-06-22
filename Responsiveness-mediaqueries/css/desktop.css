@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/Responsiveness-mediaqueries/asset/bg-intro-desktop.png);
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 100%, 74%);
+    color: #ffffff;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 900px;
+    justify-content: center;
+    align-content: center;
+    padding: 40px;
+    min-height: 100vh;
+    max-width: 1200px;
+}
+
+.container > div {
+    flex: 1;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 50px;
+}
+
+p {
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.box {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.box-blue {
+    background-color: hsl(248, 32%, 49%);
+    padding: 22px 10px;
+    text-align: center;
+}
+
+
+
+button {
+    padding: 22px 10px;
+}
+
+.tc {
+    color : black;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
