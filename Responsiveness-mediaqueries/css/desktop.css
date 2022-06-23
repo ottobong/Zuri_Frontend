@@ -121,7 +121,7 @@ a {
 @media screen and (max-width: 375px) {
     
     body {
-        background-image: url(/Responsiveness-mediaqueries/asset/bg-intro-desktop.png);
+        background-image: url(/Responsiveness-mediaqueries/asset/bg-intro-mobile.png);
         font-family: 'Poppins', sans-serif;
         background-color: hsl(0, 100%, 74%);
         color: #ffffff;
