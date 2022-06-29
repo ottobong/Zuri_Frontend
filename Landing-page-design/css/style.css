@@ -216,12 +216,35 @@
 
 .footer-section {
     background-color: var(--Dark-Cyan);
+    padding-left:  7vw;
+    padding-right:  7vw;
+    padding-top: 60px;
+    padding-bottom: 150px;
 }
 
-.footer-logo {
-    
+.wrapper-footer {
+    display: flex;
+    justify-content: space-between;
 }
 
+.info {
+    display: flex;
+
+}
+
+.col-2 {
+    display: grid;
+    justify-content: space-between;
+   
+}
+
+.wrapper-footer a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 8px;
+    font-size: var(--fs-14);
+    font-family: var(--ff-opensans);
+}
 
 /* Screen size 1440px starts here */
 
