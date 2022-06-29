@@ -41,6 +41,7 @@
     background: linear-gradient(rgba(120, 228, 255, 0.101), rgba(58, 208, 246, 0.101)), url(/Landing-page-design/asset/images/bg-hero-desktop.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 50px;
 
 }
 
@@ -66,7 +67,6 @@
 
 .hero-section {
     display: flex;
-    /* align-items: center; */
     margin-top: 70px;
     justify-content: space-between;
 }
@@ -82,6 +82,7 @@
     font-weight: var(--fw-600);
     color: var(--Dark-Cyan);
     padding-right: 8vw;
+    line-height: 50px;
 }
 
 .left p{
@@ -90,6 +91,7 @@
     font-weight: var(--fw-600);
     color: var(--Dark-Cyan);
     padding-right: 8vw;
+    margin-bottom: 20px;
 }
 
 .left button {
@@ -224,12 +226,12 @@
     padding-left:  7vw;
     padding-right:  7vw;
     padding-top: 192px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
     margin-top: -300px;
 }
 
 .footer-logo {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     width: 200px;
 }
 
@@ -283,6 +285,14 @@
     font-family: var(--ff-opensans);
 }
 
+.copyright {
+    padding-top: 20px;
+    text-align: end;
+    color: white;
+    font-size: var(--fs-12);
+    font-family: var(--ff-opensans);
+}
+
 /* Screen size 1440px starts here */
 
 @media screen and (max-width: 1440px) {
@@ -297,9 +307,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         padding-bottom: 50px;
-    
     }
-    
     
     .wrapper nav {
         display: flex;
@@ -322,7 +330,6 @@
     
     .hero-section {
         display: flex;
-        /* align-items: center; */
         margin-top: 70px;
         justify-content: space-between;
     }
@@ -401,6 +408,7 @@
         font-size: var(--fs-32);
         color: var(--Dark-Cyan);
         margin-bottom: 2px;
+        margin-top: 20px;
     }
     
     .sec-left-copy p {
@@ -431,5 +439,120 @@
         color: #a8b4bf;
     }
     
+    /* CTA area */
 
+    .main-wrapper {
+        position: relative;
+    }
+
+    .wrapper-low {
+        margin-top: 150px;
+    }
+
+    .wrapper-low section {
+        display: grid;
+        justify-content: space-around;
+        box-shadow: 0px 3px 4px 4px #6d6d6d16;
+        margin-left: 27vw;
+        margin-right: 27vw;
+        margin-bottom: 200px;
+        margin-top: 50px;
+        border-radius: 20px;
+        padding: 80px 0px;
+        background-color: white;
+    } 
+
+    .wrapper-low h1 {
+        font-family: var(--ff-poppins);
+        font-size: var(--fs-28);
+        font-weight: var(--fw-700);
+        margin-bottom: 15px;
+    } 
+
+    .wrapper-low button {
+        font-family: var(--ff-opensans);
+        font-size: var(--fs-12);
+        font-weight: var(--fw-600);
+        color: white;
+        background-color: var(--Pink);
+        border: none;
+        border-radius: 80px;
+        padding: 20px 10px;
+        margin: 0px 60px;
+        box-shadow: 0px 3px 4px 4px #6d6d6d16;
+    }
+
+    /* Footer area starts here */
+
+    .footer-section {
+        background-color: var(--Dark-Cyan);
+        padding-left:  7vw;
+        padding-right:  7vw;
+        padding-top: 192px;
+        padding-bottom: 50px;
+        margin-top: -300px;
+    }
+
+    .footer-logo {
+        padding-bottom: 40px;
+        width: 200px;
+    }
+
+    .wrapper-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .info {
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+        padding-bottom: 16px;
+    }
+
+    .info img {
+        width: 14px;
+    }
+
+    .info p {
+        width: 300px;
+        font-family: var(--ff-opensans);
+        font-size: var(--fs-14);
+        color: white;
+    }
+
+    .col-2 {
+        display: grid;
+    }
+
+    .col-3 {
+        display: grid;
+    }
+
+    .col-4 {
+        display: flex;
+        gap: 16px;
+        padding-right: 100px;
+    }
+
+    .col-4 ion-icon {
+        font-size: 24px;
+        
+    }
+
+    .wrapper-footer a {
+        text-decoration: none;
+        color: white;
+        padding-bottom: 8px;
+        font-size: var(--fs-14);
+        font-family: var(--ff-opensans);
+    }
+
+    .copyright {
+        padding-top: 20px;
+        text-align: end;
+        color: white;
+        font-size: var(--fs-12);
+        font-family: var(--ff-opensans);
+    }
 }
