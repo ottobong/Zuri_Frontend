@@ -176,8 +176,12 @@
 
 /* CTA area */
 
+.main-wrapper {
+    position: relative;
+}
+
 .wrapper-low {
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .wrapper-low section {
@@ -190,6 +194,7 @@
     margin-top: 50px;
     border-radius: 20px;
     padding: 80px 0px;
+    background-color: white;
 } 
 
 .wrapper-low h1 {
@@ -218,8 +223,14 @@
     background-color: var(--Dark-Cyan);
     padding-left:  7vw;
     padding-right:  7vw;
-    padding-top: 60px;
+    padding-top: 192px;
     padding-bottom: 150px;
+    margin-top: -300px;
+}
+
+.footer-logo {
+    padding-bottom: 20px;
+    width: 200px;
 }
 
 .wrapper-footer {
@@ -229,13 +240,39 @@
 
 .info {
     display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding-bottom: 16px;
+}
 
+.info img {
+    width: 14px;
+}
+
+.info p {
+    width: 300px;
+    font-family: var(--ff-opensans);
+    font-size: var(--fs-14);
+    color: white;
 }
 
 .col-2 {
     display: grid;
-    justify-content: space-between;
-   
+}
+
+.col-3 {
+    display: grid;
+}
+
+.col-4 {
+    display: flex;
+    gap: 16px;
+    padding-right: 100px;
+}
+
+.col-4 ion-icon {
+    font-size: 24px;
+    
 }
 
 .wrapper-footer a {
