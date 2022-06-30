@@ -556,3 +556,10 @@
         font-family: var(--ff-opensans);
     }
 }
+
+@media screen and (max-width: 375px) {  
+    .wrapper nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
