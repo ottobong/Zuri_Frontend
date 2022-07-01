@@ -559,7 +559,55 @@
 
 @media screen and (max-width: 375px) {  
     .wrapper nav {
+        display: flex;
+        padding-top: 40px;
+        align-items: center;
+        align-content: center;
+    }
+
+    .logo img {
+        width: 120px;
+        padding-top: 4px;
+    }
+
+    .cta {
+        border-radius: 20px;
+        box-shadow: 0px 3px 4px 4px #6d6d6d16;
+        border: none;
+        padding: 8px 24px;
+        background: var(--white);
+        font-weight: var(--fw-600);
+    }
+
+    .hero-section {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        margin-top: 16px;
+        justify-content: space-between;
+        
+    }
+
+    .left {
+        margin-top: 50px;
+    }
+    
+    .left h1 {
+        font-family: var(--ff-poppins);
+        font-size: var(--fs-28);
+        font-weight: var(--fw-600);
+        color: var(--Dark-Cyan);
+        padding-right: 8vw;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .left p {
+        font-size: var(--fs-14);
+        text-align: center;
+    }
+
+    .right img {
+        width: 320px;
+        padding-left: 20px;
+        padding-top: 30px;
     }
 }
